@@ -1,0 +1,14 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+@mixin flex-row {
+  flex-direction: row;
+  }
+
+@mixin botones {
+
+  
+}

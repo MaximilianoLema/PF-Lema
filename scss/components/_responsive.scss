@@ -1,0 +1,30 @@
+@media screen and (max-width: 1600px) {
+    .navbar {
+      padding-inline-start: 0px;
+      padding-inline-end: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .div-footer-izquierda {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .texto-footer {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .footer {
+      height: 400px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  

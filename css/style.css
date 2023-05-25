@@ -1,0 +1,139 @@
+.footer {
+  width: 100%;
+  margin: 0;
+  border: 1px solid black;
+  margin-top: 100px;
+  font-family: "Nunito", sans-serif;
+}
+.footer > .container-fluid > .row > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer > .container-fluid > .row > div > div {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer > .container-fluid > .row > div > div a img {
+  width: 50px;
+  height: 50px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header div .logo {
+  width: 25em;
+}
+
+.navbar {
+  padding-inline-start: 190px;
+  padding-inline-end: 190px;
+  margin-bottom: 20px;
+  font-family: "Nunito", sans-serif;
+  background-color: hsl(221, 72%, 58%);
+}
+
+.barra-links ul li {
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+.barra-links ul li:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.titulo-pagina {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 1px;
+}
+
+.container.contenedor-productos .row.g-3.justify-content-flex-start .col-12.col-md-6.col-lg-4.col-xl-3 .card.mx-auto {
+  width: 18rem;
+}
+.container.contenedor-productos .row.g-3.justify-content-flex-start .col-12.col-md-6.col-lg-4.col-xl-3 .card.mx-auto .card-img-top {
+  height: 286px;
+  width: 286px;
+}
+.container.contenedor-productos .row.g-3.justify-content-flex-start .col-12.col-md-6.col-lg-4.col-xl-3 .card.mx-auto .card-body .card-title {
+  line-height: 1.2;
+  height: 5rem;
+  font-family: "Nunito", sans-serif;
+  font-size: large;
+}
+.container.contenedor-productos .row.g-3.justify-content-flex-start .col-12.col-md-6.col-lg-4.col-xl-3 .card.mx-auto .card-body .precio {
+  font-size: 28px;
+  font-family: "Nunito", sans-serif;
+}
+.container.contenedor-productos .row.g-3.justify-content-flex-start .col-12.col-md-6.col-lg-4.col-xl-3 .card.mx-auto .card-body .card-footer {
+  padding: 0;
+  padding-top: 0.75rem;
+}
+.container.contenedor-productos .row.g-3.justify-content-flex-start .col-12.col-md-6.col-lg-4.col-xl-3 .card.mx-auto .card-body .card-footer a.btn.btn-primary {
+  font-family: "Nunito", sans-serif;
+  border: 0;
+  background-image: linear-gradient(150deg, #9500ff, #09f, #00ddff);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.container.contenedor-productos .row.g-3.justify-content-flex-start .col-12.col-md-6.col-lg-4.col-xl-3 .card.mx-auto .card-body .card-footer .btn-primary:hover {
+  transform: scale(1.1);
+}
+.container.contenedor-productos .row.g-3.justify-content-flex-start .col-12.col-md-6.col-lg-4.col-xl-3 .card.mx-auto .card-body .card-footer .btn-primary:active {
+  transform: scale(0.9);
+}
+.container.contenedor-productos .row.g-3.justify-content-flex-start .col-12.col-md-6.col-lg-4.col-xl-3 .card.mx-auto .card-body .card-footer i.fa-solid.fa-cart-shopping {
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 1600px) {
+  .navbar {
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .div-footer-izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .texto-footer {
+    display: flex;
+    justify-content: center;
+  }
+  .footer {
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
